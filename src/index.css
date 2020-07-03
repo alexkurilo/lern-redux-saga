@@ -1,13 +1,37 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.app_container {
+    display: inline-block;
+    position: relative;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app_container button {
+    right: 25px;
+    position: absolute;
 }
+
+.article_container,
+.img_container {
+    width: 100vw;
+    text-align: center;
+}
+
+.article_container {
+    color: olive;
+}
+
+.dog_img,
+.article_img {
+    border-radius: 5%;
+}
+
+.dog_img {
+    width: 50%;
+    height: auto;
+    border: 1px solid grey;
+}
+
+.article_img {
+    width: 80%;
+    height: auto;
+    border: 4px solid RebeccaPurple;
+}
+
