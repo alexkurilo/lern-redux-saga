@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import NewsItem from './NewsItem';
 
-let NewsContainer = ({ news }) => (
+const NewsContainer = ({ news }) => (
     <>
         {news.map((article, index) => <NewsItem key={index} article={article}/>)}
     </>

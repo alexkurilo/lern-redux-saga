@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-let DogContainer = ({ dog }) => (
+const DogContainer = ({ dog }) => (
     <div className="img_container">
         <img className="dog_img" src={dog} alt=""/>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-let NewsItem = ({article}) => (
+const NewsItem = ({article}) => (
     <div className="article_container">
         {article.title && <h1>{article.title}</h1>}
         {article.urlToImage && <img className="article_img" src={article.urlToImage} alt="" />}
