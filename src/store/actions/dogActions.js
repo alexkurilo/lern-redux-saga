@@ -1,6 +1,10 @@
 const dogUrl = 'https://dog.ceo/api/breeds/image/random';
 
-export function fetchDogAction () {
+const fetchDog = () => {
     return fetch(dogUrl)
         .then(res => res.json());
+};
+
+export {
+    fetchDog,
 };
