@@ -7,8 +7,8 @@ import { BrowserRouter } from 'react-router-dom'
 import {composeWithDevTools} from "redux-devtools-extension";
 
 import App from './components/App';
-import rootSaga from './sagas/indexSaga';
-import reducer from './reducers/indexReducer';
+import rootSaga from './store/sagas/indexSaga';
+import reducer from './store/reducers/indexReducer';
 import './index.css';
 
 const sagaMiddleware = createSagaMiddleware();

@@ -1,4 +1,4 @@
-import { all } from 'redux-saga/effects';
+import { all } from 'redux-saga/dist/redux-saga-effects-npm-proxy.esm';
 
 import {dogWatcher} from './dogSaga';
 import {newsWatcher} from './newsSaga';

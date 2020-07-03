@@ -1,4 +1,4 @@
-import { put, call, takeLatest } from 'redux-saga/effects';
+import { put, call, takeLatest } from 'redux-saga/dist/redux-saga-effects-npm-proxy.esm';
 
 import { fetchNewsAction } from '../actions/newsActions';
 

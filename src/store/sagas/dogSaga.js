@@ -1,4 +1,4 @@
-import { put, call, takeEvery } from 'redux-saga/effects';
+import { put, call, takeEvery } from 'redux-saga/dist/redux-saga-effects-npm-proxy.esm';
 
 import {fetchDogAction} from '../actions/dogActions';
 
