@@ -1,10 +1,10 @@
 import { put, call, takeLatest } from 'redux-saga/dist/redux-saga-effects-npm-proxy.esm';
 
-import * as newsAction from '../actions/newsActions';
+import * as newsActions from '../actions/newsActions';
 
 function* fetchNews() {
     try{
-        const data = yield call(newsAction.fetchNews);
+        const data = yield call(newsActions.fetchNews);
 
         yield put({
             type: "NEWS_RECEIVED",
